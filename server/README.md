@@ -1,22 +1,25 @@
-## 1. Create a virtual env
+## 1. Create .env file
+
+Create .env file in the server folder with the following content:
 
 ```
-python -m venv .venv
+DB_HOST=localhost
+DB_DATABASE=travel
+DB_USER=root
+DB_PASSWORD=password
 ```
 
-## 2. Activate virtual env
+Replace the values accordingly
 
-```
-./.venv/Scripts/activate
-```
+The `.env` file is meant to contain secrets, thus it is not checked into git, thus it is unique to you.
 
-## 3. Install dependencies
+## 2. Install dependencies
 
 ```
 pip install -r requirements.txt
 ```
 
-## 4. Start server
+## 3. Start server
 
 ```
 python ./app.py
