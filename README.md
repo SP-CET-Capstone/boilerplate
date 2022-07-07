@@ -1,63 +1,33 @@
 # Development Process
 
-## Starting a feature 
+## Starting a feature
 
-1. Checkout to master 
+1. Switch to master/main branch
 
-  ```
-  git checkout master
-  ```
-  
 2. Sync your local master with `origin/master`
 
-  ```
-  git pull
-  ```
-  
 3. Create a new branch (Branch name format: `<YOUR_NAME>/feature/<FEATURE_NAME>`)
 
-  ```
-  git checkout -b jeremiah-ang/feature/magical-feature
-  ```
-  
 ## Development
 
-4. Make changes, stage and commit
+4. Make changes
 
-  ```
-  git add <FILE_NAME>
-  git commit -m "Meaningful message"
-  ```
-  
+5. Review your changes
+
+6. Stage and commit
+
 ## Merging into master
 
-5. Checkout to master and sync with origin/master
+7. Switch to `master` branch and sync with origin
 
-  ```
-  git checkout master
-  git pull
-  ```
-  
-6. Checkout to feature branch again and merge master into feature branch.
+8. Checkout to feature branch again and merge master into feature branch.
 
-  ```
-  git checkout jeremiah-ang/feature/magical-feature
-  git merge master
-  ```
-  
-7. Resolve any merge conflict, test and commit the resolved merge conflict.
+9. Resolve any merge conflict, test, and commit the resolved merge conflict.
 
-  ```
-  git add <FILE_NAME>
-  git commit -m "Merge master into jeremiah-ang/feature/magical-feature"
-  ```
+10. Push feature branch to origin
 
-8. Push feature branch to origin
+11. Open a pull request
 
-  ```
-  git push origin jeremiah-ang/feature/magical-feature
-  ```
- 
-9. Open a pull request
-10. If the team is agree-able with the changes, merge into master. 
-11. Repeat `step 1` again for the next feature. 
+12. If the team is agree-able with the changes, merge into master.
+
+13. Repeat `step 1` again for the next feature.
