@@ -9,7 +9,7 @@ DB_USER=root
 DB_PASSWORD=password
 ```
 
-Replace the above values accordingly
+![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) Replace the above values accordingly ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) 
 
 The `.env` file is meant to contain secrets, thus it is not checked into git, thus it is unique to you.
 
