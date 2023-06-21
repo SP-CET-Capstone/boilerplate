@@ -4,7 +4,7 @@ Create .env file in the server folder with the following content:
 
 ```
 DB_HOST=localhost
-DB_DATABASE=movies
+DB_DATABASE=spfashion
 DB_USER=root
 DB_PASSWORD=password
 ```
