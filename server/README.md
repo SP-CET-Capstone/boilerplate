@@ -4,9 +4,9 @@ Create .env file in the server folder with the following content:
 
 ```
 DB_HOST=localhost
-DB_DATABASE=spfashion
-DB_USER=root
-DB_PASSWORD=password
+DB_DATABASE=<your db schema name>
+DB_USER=<your mysql username>
+DB_PASSWORD=<your mysql password>
 ```
 
 ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) Replace the above values accordingly ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) 
